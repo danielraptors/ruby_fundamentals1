@@ -1,17 +1,17 @@
 counter = 1
 
-while counter >= 100
-	if 3 % 100 == 0 && 5 % 100 ==  0
+while counter <= 100
+	if counter % 3 == 0 && counter % 5 ==  0
 		puts "Bitmaker"
-	elsif 3 % 100 == 0
+	elsif counter % 3 == 0
 		puts "Bit"
-	elsif 5 % 100 == 0
+	elsif counter % 5 == 0
 		puts "Maker"
 	else 
 	    puts counter
 	end
 
-	counter =+ 1 
+	counter += 1 
 
 end
 

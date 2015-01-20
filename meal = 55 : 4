@@ -1,0 +1,6 @@
+meal = 55 / 4
+
+puts #{meal}
+
+
+
